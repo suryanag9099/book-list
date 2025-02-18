@@ -1,0 +1,53 @@
+.container {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+}
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.book-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.card {
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+.card-title {
+  font-size: 18px;
+  font-weight: bold;
+}
+.release-time {
+  font-weight: bold;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.button {
+  padding: 8px;
+  border: none;
+  border-radius: 5px;
+  background-color: blue;
+  color: white;
+  cursor: pointer;
+}
+.wishlist-add {
+  background-color: green;
+}
+.wishlist-remove {
+  background-color: red;
+}
